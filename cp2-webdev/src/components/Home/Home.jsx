@@ -2,7 +2,7 @@ function Home() {
   return (
     <>
       <div className="container mx-auto px-4 py-8 flex flex-col md:flex-row items-center">
-        <div className="w-1/2">
+        <div className="w-full md:w-1/2">
           <h1 className="text-6xl md:text-8xl font-bold mb-4 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
             Olá
           </h1>
@@ -11,7 +11,7 @@ function Home() {
             <a
               href="https://github.com/fujita022/"
               target="_blank"
-              className="text-blue-900 font-bold"
+              className="text-blue-900 font-bold transition duration-300 hover:underline"
               rel="noopener noreferrer"
             >
               Erick Fujita
@@ -20,7 +20,7 @@ function Home() {
             <a
               href="https://www.fiap.com.br/"
               target="_blank"
-              className="text-red-400 font-bold"
+              className="text-red-400 font-bold transition duration-300 hover:underline"
               rel="noopener noreferrer"
             >
               FIAP
@@ -30,7 +30,7 @@ function Home() {
             <a
               href="https://cloudybr.com.br/"
               target="_blank"
-              className="text-blue-300 font-bold"
+              className="text-blue-300 font-bold transition duration-300 hover:underline"
               rel="noopener noreferrer"
             >
               Cloudy
@@ -38,7 +38,7 @@ function Home() {
             , onde pude desenvolver habilidades valiosas nesse campo dinâmico.
           </p>
         </div>
-        <div className="w-1/2 mt-8 md:mt-0">
+        <div className="w-full md:w-1/2 mt-8 md:mt-0">
           <img 
             src="https://media.giphy.com/media/BHNfhgU63qrks/giphy.gif?cid=ecf05e47isdhdtxqxnbphj8ciripxdi58q2a6c80k2ga1h3s&ep=v1_gifs_search&rid=giphy.gif&ct=g" 
             alt="imagem direita" 
