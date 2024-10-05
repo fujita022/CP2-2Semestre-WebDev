@@ -1,0 +1,2 @@
+Eu fiz meu portifólio começando instalando as bibliotecas dependentes (react-router-dom, react-icons), após ter dado o create vite@latest, selecionando React e JS, após isso separei as rotas de cada page do meu projeto e
+fui dando continuidade nos projetos, importando functions e colocando no App JS, onde seria renderizado meu projeto, após isso fiz a aplicação ser upada no vercel. Logando meu projeto la, e aqui no código, no terminal finalizando com npm run build. 
